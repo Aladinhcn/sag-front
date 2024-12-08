@@ -1,0 +1,25 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+.navbar {
+  color: #fff;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Apply margin only on larger screens */
+@media (min-width: 1024px) { 
+  .app-container {
+    margin: 0 40px; /* Margin for larger screens */
+  }
+}
